@@ -1,0 +1,12 @@
+bcrypt
+bson
+jwt
+numpy
+pandas
+pymongo
+mongoengine
+Flask
+Flask-PyMongo
+Flask-Cors
+Flask-Bcrypt
+Flask-JWT
