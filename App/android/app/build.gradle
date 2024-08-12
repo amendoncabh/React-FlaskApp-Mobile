@@ -1,6 +1,5 @@
 apply plugin: "com.android.application"
 
-import com.android.build.OutputFile
 
 /**
  * The react.gradle file registers a task for each build variant (e.g. bundleDebugJsAndAssets
@@ -126,7 +125,7 @@ android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     defaultConfig {
-        applicationId "com.keells_rewamp"
+        applicationId "com.getres"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

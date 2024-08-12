@@ -1,4 +1,10 @@
 {
-  "name": "keells_rewamp",
-  "displayName": "keells_rewamp"
+  "name": "GeTrEs",
+  "displayName": "G3 - Gestão de Transporte Escolar",
+  "api": {
+    "protocol": "http",
+    "host": "localhost",
+    "port": "8001",
+    "urlBase": "api/v2/"
+  }
 }

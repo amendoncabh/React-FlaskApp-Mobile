@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import AppColors from '../../../config/colors';
-import {AppAuthContext} from '../../../contexts/app/AppAuthContext';
+import {AppAuthContext} from '../../../contexts/app/AuthProvider';
 
 export default DrawerItem = ({props, data}) => {
   const [AppAuthState, setAppAuthState] = useContext(AppAuthContext);

@@ -6,7 +6,7 @@ import AppColors from '../../config/colors';
 import FontAwesomeIcon from 'react-native-vector-icons/Ionicons';
 import {white} from 'react-native-paper/lib/typescript/styles/colors';
 import ProfileInformationScreen from '../ProfileInformationScreen';
-import {AppAuthContext} from '../../contexts/app/AppAuthContext';
+import {AppAuthContext} from '../../contexts/app/AuthProvider';
 import { SettingsScreen } from "react-native-settings-screen"
 
 

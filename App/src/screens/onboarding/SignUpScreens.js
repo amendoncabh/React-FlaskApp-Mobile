@@ -3,7 +3,7 @@ import {View, Text, Button} from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
 import Icon from 'react-native-vector-icons/Ionicons';
 import AppColors from '../../config/colors';
-import {AppAuthContext} from '../../contexts/app/AppAuthContext';
+import {AppAuthContext} from '../../contexts/app/AuthProvider';
 import SignUpOrLoginScreen from './SignUpOrLoginScreen';
 import SignUpUserInfoScreen from './SignUpUserInfoScreen';
 import SignUpDeliveryInfo from './SignUpDeliveryInfo';

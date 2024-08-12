@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import AppColors from '../../config/colors';
-import {AppAuthContext} from '../../contexts/app/AppAuthContext';
+import {AppAuthContext} from '../../contexts/app/AuthProvider';
 
 const ContinueToHome = ({navigation}) => {
   const [AppAuthState, setAppAuthState] = useContext(AppAuthContext);
