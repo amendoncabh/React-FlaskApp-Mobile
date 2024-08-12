@@ -16,7 +16,7 @@ export default LoadingScreen = () => {
       </View>
       <View style={styles.bottomTextContainer}>
         <Text style={styles.bottomText}>
-          Developed by SLIIT 2021 SE
+          Developed by ADS-TI 2024 SE
         </Text>
       </View>
     </View>

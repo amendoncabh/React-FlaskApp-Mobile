@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 import {View, Text, Image, StyleSheet, StatusBar} from 'react-native';
 import AppIntroSlider from 'react-native-app-intro-slider';
 import AppColors from '../../config/colors';
-import {AppAuthContext} from '../../contexts/app/AppAuthContext';
+import {AppAuthContext} from '../../contexts/app/AuthProvider';
 
 const data = [
   {

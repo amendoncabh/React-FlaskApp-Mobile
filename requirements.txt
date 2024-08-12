@@ -1,10 +1,12 @@
 bcrypt
-bson
 jwt
 numpy
 pandas
+pillow
 pymongo
 mongoengine
+python-dotenv
+python-gettext
 Flask
 Flask-PyMongo
 Flask-Cors

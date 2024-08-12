@@ -1,2 +1,3 @@
-export const baseUrl = "localhost:5000";
+import {api} from  '../../app.json'
+export const baseUrl = `\${api.protocol}://\${api.host}${api.port ? `:\${api.port}` : ''}/\${api.urlBase}`;
 
